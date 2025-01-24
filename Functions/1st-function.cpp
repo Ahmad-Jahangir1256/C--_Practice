@@ -46,8 +46,11 @@ int main()
 
     // Display the results of the arithmetic operations
     cout << a << " + " << b << " = " << add(a, b) << endl;
+
     cout << a << " - " << b << " = " << sub(a, b) << endl;
+    
     cout << a << " * " << b << " = " << mul(a, b) << endl;
+    
     cout << a << " / " << b << " = " << divide(a, b) << endl;
 
     // Return 0 to indicate successful execution
